@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 dotenv.config({ path: './config.env' });
 const app = require('./app');
 
+console.log(process.env.PORT);
 // const env = {
 //   NODE_ENV: 'development',
 //   PORT: '3001',
@@ -17,7 +18,7 @@ const app = require('./app');
 const DEFAULT_PORT = 3001;
 
 const DB = process.env.DATABASE.replace(
-  '<PASSWORD>',
+  '|PASSWORD|',
   process.env.DATABASE_PASSWORD
 );
 // const DB = env.DATABASE.replace('<PASSWORD>', process.env.DATABASE_PASSWORD);

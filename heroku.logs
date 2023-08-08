@@ -1,0 +1,100 @@
+2023-08-08T11:00:02.676648+00:00 heroku[web.1]: Process exited with status 1
+2023-08-08T11:00:02.706356+00:00 heroku[web.1]: State changed from starting to crashed
+2023-08-08T11:00:02.709946+00:00 heroku[web.1]: State changed from crashed to starting
+2023-08-08T11:00:05.036838+00:00 heroku[web.1]: Starting process with command `npm start`
+2023-08-08T11:00:06.683682+00:00 app[web.1]: 
+2023-08-08T11:00:06.683710+00:00 app[web.1]: > jobstracker-backend@1.0.0 start
+2023-08-08T11:00:06.683711+00:00 app[web.1]: > node server.js
+2023-08-08T11:00:06.683711+00:00 app[web.1]: 
+2023-08-08T11:00:06.991975+00:00 app[web.1]: App running on port 15521....
+2023-08-08T11:00:06.994224+00:00 app[web.1]: /app/node_modules/mongodb-connection-string-url/lib/index.js:86
+2023-08-08T11:00:06.994227+00:00 app[web.1]: throw new MongoParseError('Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"');
+2023-08-08T11:00:06.994228+00:00 app[web.1]: ^
+2023-08-08T11:00:06.994228+00:00 app[web.1]: 
+2023-08-08T11:00:06.994228+00:00 app[web.1]: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+2023-08-08T11:00:06.994229+00:00 app[web.1]: at new ConnectionString (/app/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+2023-08-08T11:00:06.994230+00:00 app[web.1]: at parseOptions (/app/node_modules/mongodb/lib/connection_string.js:191:17)
+2023-08-08T11:00:06.994230+00:00 app[web.1]: at new MongoClient (/app/node_modules/mongodb/lib/mongo_client.js:48:63)
+2023-08-08T11:00:06.994230+00:00 app[web.1]: at _createMongoClient (/app/node_modules/mongoose/lib/connection.js:887:14)
+2023-08-08T11:00:06.994231+00:00 app[web.1]: at NativeConnection.openUri (/app/node_modules/mongoose/lib/connection.js:742:29)
+2023-08-08T11:00:06.994231+00:00 app[web.1]: at Mongoose.connect (/app/node_modules/mongoose/lib/index.js:406:15)
+2023-08-08T11:00:06.994231+00:00 app[web.1]: at Object.<anonymous> (/app/server.js:27:4)
+2023-08-08T11:00:06.994232+00:00 app[web.1]: at Module._compile (node:internal/modules/cjs/loader:1233:14)
+2023-08-08T11:00:06.994232+00:00 app[web.1]: at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+2023-08-08T11:00:06.994232+00:00 app[web.1]: at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-08-08T11:00:06.994234+00:00 app[web.1]: 
+2023-08-08T11:00:06.994234+00:00 app[web.1]: Node.js v20.5.0
+2023-08-08T11:00:06.999772+00:00 app[web.1]: npm notice
+2023-08-08T11:00:06.999848+00:00 app[web.1]: npm notice New patch version of npm available! 9.8.0 -> 9.8.1
+2023-08-08T11:00:06.999994+00:00 app[web.1]: npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+2023-08-08T11:00:07.000025+00:00 app[web.1]: npm notice Run `npm install -g npm@9.8.1` to update!
+2023-08-08T11:00:07.000105+00:00 app[web.1]: npm notice
+2023-08-08T11:00:07.131717+00:00 heroku[web.1]: Process exited with status 1
+2023-08-08T11:00:07.160458+00:00 heroku[web.1]: State changed from starting to crashed
+2023-08-08T11:00:20.562354+00:00 heroku[web.1]: State changed from crashed to starting
+2023-08-08T11:00:22.954987+00:00 heroku[web.1]: Starting process with command `npm start`
+2023-08-08T11:00:24.656688+00:00 app[web.1]: 
+2023-08-08T11:00:24.656715+00:00 app[web.1]: > jobstracker-backend@1.0.0 start
+2023-08-08T11:00:24.656715+00:00 app[web.1]: > node server.js
+2023-08-08T11:00:24.656715+00:00 app[web.1]: 
+2023-08-08T11:00:24.960491+00:00 app[web.1]: App running on port 50784....
+2023-08-08T11:00:24.962557+00:00 app[web.1]: /app/node_modules/mongodb-connection-string-url/lib/index.js:86
+2023-08-08T11:00:24.962558+00:00 app[web.1]: throw new MongoParseError('Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"');
+2023-08-08T11:00:24.962558+00:00 app[web.1]: ^
+2023-08-08T11:00:24.962559+00:00 app[web.1]: 
+2023-08-08T11:00:24.962559+00:00 app[web.1]: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+2023-08-08T11:00:24.962559+00:00 app[web.1]: at new ConnectionString (/app/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+2023-08-08T11:00:24.962560+00:00 app[web.1]: at parseOptions (/app/node_modules/mongodb/lib/connection_string.js:191:17)
+2023-08-08T11:00:24.962560+00:00 app[web.1]: at new MongoClient (/app/node_modules/mongodb/lib/mongo_client.js:48:63)
+2023-08-08T11:00:24.962561+00:00 app[web.1]: at _createMongoClient (/app/node_modules/mongoose/lib/connection.js:887:14)
+2023-08-08T11:00:24.962561+00:00 app[web.1]: at NativeConnection.openUri (/app/node_modules/mongoose/lib/connection.js:742:29)
+2023-08-08T11:00:24.962561+00:00 app[web.1]: at Mongoose.connect (/app/node_modules/mongoose/lib/index.js:406:15)
+2023-08-08T11:00:24.962562+00:00 app[web.1]: at Object.<anonymous> (/app/server.js:27:4)
+2023-08-08T11:00:24.962562+00:00 app[web.1]: at Module._compile (node:internal/modules/cjs/loader:1233:14)
+2023-08-08T11:00:24.962562+00:00 app[web.1]: at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+2023-08-08T11:00:24.962562+00:00 app[web.1]: at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-08-08T11:00:24.962564+00:00 app[web.1]: 
+2023-08-08T11:00:24.962564+00:00 app[web.1]: Node.js v20.5.0
+2023-08-08T11:00:24.967877+00:00 app[web.1]: npm notice
+2023-08-08T11:00:24.967942+00:00 app[web.1]: npm notice New patch version of npm available! 9.8.0 -> 9.8.1
+2023-08-08T11:00:24.968075+00:00 app[web.1]: npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+2023-08-08T11:00:24.968119+00:00 app[web.1]: npm notice Run `npm install -g npm@9.8.1` to update!
+2023-08-08T11:00:24.968204+00:00 app[web.1]: npm notice
+2023-08-08T11:00:25.092122+00:00 heroku[web.1]: Process exited with status 1
+2023-08-08T11:00:25.124814+00:00 heroku[web.1]: State changed from starting to crashed
+2023-08-08T11:01:08.000000+00:00 app[api]: Build started by user humaidan@gmail.com
+2023-08-08T11:01:27.983832+00:00 app[api]: Deploy a757842b by user humaidan@gmail.com
+2023-08-08T11:01:27.983832+00:00 app[api]: Release v12 created by user humaidan@gmail.com
+2023-08-08T11:01:28.000000+00:00 app[api]: Build succeeded
+2023-08-08T11:01:28.556186+00:00 heroku[web.1]: State changed from crashed to starting
+2023-08-08T11:01:30.835110+00:00 heroku[web.1]: Starting process with command `npm start`
+2023-08-08T11:01:32.312739+00:00 app[web.1]: 
+2023-08-08T11:01:32.312756+00:00 app[web.1]: > jobstracker-backend@1.0.0 start
+2023-08-08T11:01:32.312757+00:00 app[web.1]: > node server.js
+2023-08-08T11:01:32.312758+00:00 app[web.1]: 
+2023-08-08T11:01:32.643181+00:00 app[web.1]: App running on port 38720....
+2023-08-08T11:01:32.645215+00:00 app[web.1]: /app/node_modules/mongodb-connection-string-url/lib/index.js:86
+2023-08-08T11:01:32.645216+00:00 app[web.1]: throw new MongoParseError('Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"');
+2023-08-08T11:01:32.645216+00:00 app[web.1]: ^
+2023-08-08T11:01:32.645217+00:00 app[web.1]: 
+2023-08-08T11:01:32.645217+00:00 app[web.1]: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+2023-08-08T11:01:32.645217+00:00 app[web.1]: at new ConnectionString (/app/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+2023-08-08T11:01:32.645218+00:00 app[web.1]: at parseOptions (/app/node_modules/mongodb/lib/connection_string.js:191:17)
+2023-08-08T11:01:32.645218+00:00 app[web.1]: at new MongoClient (/app/node_modules/mongodb/lib/mongo_client.js:48:63)
+2023-08-08T11:01:32.645218+00:00 app[web.1]: at _createMongoClient (/app/node_modules/mongoose/lib/connection.js:887:14)
+2023-08-08T11:01:32.645219+00:00 app[web.1]: at NativeConnection.openUri (/app/node_modules/mongoose/lib/connection.js:742:29)
+2023-08-08T11:01:32.645219+00:00 app[web.1]: at Mongoose.connect (/app/node_modules/mongoose/lib/index.js:406:15)
+2023-08-08T11:01:32.645220+00:00 app[web.1]: at Object.<anonymous> (/app/server.js:27:4)
+2023-08-08T11:01:32.645220+00:00 app[web.1]: at Module._compile (node:internal/modules/cjs/loader:1233:14)
+2023-08-08T11:01:32.645220+00:00 app[web.1]: at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+2023-08-08T11:01:32.645220+00:00 app[web.1]: at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-08-08T11:01:32.645221+00:00 app[web.1]: 
+2023-08-08T11:01:32.645221+00:00 app[web.1]: Node.js v20.5.0
+2023-08-08T11:01:32.650250+00:00 app[web.1]: npm notice
+2023-08-08T11:01:32.650307+00:00 app[web.1]: npm notice New patch version of npm available! 9.8.0 -> 9.8.1
+2023-08-08T11:01:32.650432+00:00 app[web.1]: npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+2023-08-08T11:01:32.650462+00:00 app[web.1]: npm notice Run `npm install -g npm@9.8.1` to update!
+2023-08-08T11:01:32.650532+00:00 app[web.1]: npm notice
+2023-08-08T11:01:32.765977+00:00 heroku[web.1]: Process exited with status 1
+2023-08-08T11:01:32.795179+00:00 heroku[web.1]: State changed from starting to crashed
+2023-08-08T11:01:50.372716+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=jobstracker-backend-8f4daeea63a2.herokuapp.com request_id=cc26ddbe-d905-48c4-8eb5-5a47afc33535 fwd="88.201.12.60" dyno= connect= service= status=503 bytes= protocol=https
